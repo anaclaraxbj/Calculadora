@@ -47,7 +47,7 @@ int main(){
         char t;
         cin >> t;
         if(t=='s'){
-            true;
+            continue;
         }
         else if(t=='n'){
             cout << "Obrigado por usar a calculadora! Até a próxima.";
@@ -59,7 +59,7 @@ int main(){
             char t;
             cin >> t;
             if(t=='s'){
-                true;
+                continue;
             }
             else if(t=='n'){
                 cout << "Obrigado por usar a calculadora! Até a próxima.";
@@ -80,14 +80,14 @@ int main(){
 
         double sub;
         sub=s-p;
-        cout << "Resultado: " << s << " - " << p  << " = " << sub << endl;
+        cout << "Resultado: " << p << " - " << s  << " = " << sub << endl;
         
         
         cout << "Deseja realizar outra operação? (s/n): ";
         char t;
         cin >> t;
         if(t=='s'){
-            true;
+            continue;
         }
         else if(t=='n'){
             cout << "Obrigado por usar a calculadora! Até a próxima.";
@@ -99,7 +99,7 @@ int main(){
             char t;
             cin >> t;
             if(t=='s'){
-                true;
+                continue;
             }
             else if(t=='n'){
                 cout << "Obrigado por usar a calculadora! Até a próxima.";
@@ -125,7 +125,7 @@ int main(){
         char t;
         cin >> t;
         if(t=='s'){
-            true;
+            continue;
         }
         else if(t=='n'){
             cout << "Obrigado por usar a calculadora! Até a próxima.";
@@ -137,7 +137,7 @@ int main(){
             char t;
             cin >> t;
             if(t=='s'){
-                true;
+                continue;
             }
             else if(t=='n'){
                 cout << "Obrigado por usar a calculadora! Até a próxima.";
@@ -163,7 +163,7 @@ int main(){
             char t;
             cin >> t;
             if(t=='s'){
-                true;
+                continue;
             }
             else if(t=='n'){
                 cout << "Obrigado por usar a calculadora! Até a próxima.";
@@ -181,7 +181,7 @@ int main(){
         char t;
         cin >> t;
         if(t=='s'){
-            true;
+            continue;
         }
         else if(t=='n'){
             cout << "Obrigado por usar a calculadora! Até a próxima.";
@@ -193,7 +193,7 @@ int main(){
             char t;
             cin >> t;
             if(t=='s'){
-                true;
+                continue;
             }
             else if(t=='n'){
                 cout << "Obrigado por usar a calculadora! Até a próxima.";
